@@ -9,7 +9,7 @@ Then, that high speed proxy sends and retrieves that information from the game's
 Last, the data is brought back to you, and latency/lag is reduced
 
 ## Why does this work?
-Any high speed proxy is always better than an average home connection, so finding connects
+Any high speed proxy is always better than an average home connection, so finding one
 
 that is close to you can reduce ping greatly.
 
@@ -17,5 +17,5 @@ that is close to you can reduce ping greatly.
 ```
 git clone https://github.com/aidensala/latencyranger.git
 cd latencyranger/
-pip install -r requirements.txt
+python latencyranger.py (using 2.7)
 ```
